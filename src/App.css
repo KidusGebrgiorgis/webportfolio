@@ -1,0 +1,116 @@
+.App{
+  flex-direction: column;
+  display: flex;
+}
+.header-container{
+  flex-direction: row;
+  display: flex;
+}
+#quote{
+  text-align: left;
+
+}
+#contact-icons{
+  text-align: center;
+}
+#contact-icons i{
+  color: white;
+  margin: .5%;
+  padding:calc(.5px + 2vmin);
+  border-radius: 50%;
+  background: #4e54c8;  
+}
+.App-header {
+  text-align: left;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex: 100%;
+}
+.sub-header{
+  color: rgb(153, 155, 157);
+  font-size: calc(5px + 2vmin);
+}
+.dropdown{
+  z-index: 1;
+  background-color: #282c34;
+  position: fixed;
+}
+.menu-bar{
+  cursor: pointer;
+  color: white;
+  margin: 10px 10px;
+}
+.menu-bar p1{
+margin-left:20px;
+}
+.menu-bar a{
+  text-decoration: none;
+}
+.menu-bar a:visited{
+  color: rgb(176, 194, 210);
+}
+.dropdown ul{
+  list-style: none;
+  display: none;
+}
+.dropdown li{
+  width: 100%;
+  padding: 10px;
+  margin: calc(2px + 2vmin);
+}
+.dropdown li:hover{
+  background-color: white ;
+  color: black;
+}
+.dropdown .menu-bar:hover ul{
+  cursor: pointer;
+  display: block;
+}
+
+.b1{
+  position: relative;
+  z-index: 1;
+  color:white;
+  background-color: darkcyan;
+  transition-duration:.1s;
+  transition-property: padding;
+  font-size: calc(6px + 2vmin);
+  padding:calc(8px + 2vmin);
+  border: none;
+  border-radius: 5px;
+}
+.b1 a{
+  text-decoration: none;
+}
+
+.b1:hover{
+  cursor: pointer;
+  background-color: rgb(10, 100, 100);
+  padding:calc(12px + 2vmin);
+  color:rgb(175, 175, 175);
+}
+
+#about-me{
+  margin: 2%;
+}
+#about-me:visited{
+  color:white;
+  text-decoration: none;
+}
+footer{
+  text-align: center;
+}
+footer i{
+  color: white;
+  background-color: #282c34;
+  margin: .5%;
+  padding:calc(.5px + 2vmin);
+  border-radius: 50%;
+  text-align: center;
+}
